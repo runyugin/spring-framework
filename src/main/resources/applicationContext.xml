@@ -11,4 +11,9 @@
           class="ru.krasnoperov.course.alishev.JazzMusic">
     </bean>
 
+    <bean id="musicPlayerBean"
+          class="ru.krasnoperov.course.alishev.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
