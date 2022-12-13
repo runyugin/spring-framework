@@ -13,13 +13,18 @@
           class="ru.krasnoperov.course.alishev.JazzMusic">
     </bean>
     <bean id="musicBean2"
-          class="ru.krasnoperov.course.alishev.RockMusic">
+          class="ru.krasnoperov.course.alishev.RockMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestropy">
     </bean>
     <bean id="musicBean3"
           class="ru.krasnoperov.course.alishev.RapMusic">
     </bean>
     <bean id="musicBean4"
-          class="ru.krasnoperov.course.alishev.ClassicalMusic">
+          class="ru.krasnoperov.course.alishev.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestropy"
+          factory-method="getNewClassicalMusic">
     </bean>
 
     <bean id="musicPlayerBean"
