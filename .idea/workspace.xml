@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eaa42cb-fc75-4c4e-87b3-28795d4e271f" name="Changes" comment="lesson4">
+    <list default="true" id="6eaa42cb-fc75-4c4e-87b3-28795d4e271f" name="Changes" comment="lesson5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/ConfigSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/StyleMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/JazzMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/RapMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/RapMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krasnoperov/course/alishev/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -26,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson4" />
+        <entry key="$PROJECT_DIR$" value="lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,18 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "9dc3a29d9455b1916d71d440caa1fb7b"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9dc3a29d9455b1916d71d440caa1fb7b&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.krasnoperov.course.alishev" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.krasnoperov.course.alishev.TestSpring" />
@@ -85,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670493644857</updated>
       <workItem from="1670493646374" duration="9697000" />
-      <workItem from="1670932891022" duration="2113000" />
+      <workItem from="1670932891022" duration="10285000" />
+      <workItem from="1671785691973" duration="3270000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1670499068042</created>
@@ -115,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670509908241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson5">
+      <created>1670937741805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670937741805</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +158,8 @@
     <MESSAGE value="lesson2" />
     <MESSAGE value="lesson3" />
     <MESSAGE value="lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />

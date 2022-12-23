@@ -1,12 +1,24 @@
 package ru.krasnoperov.course.alishev;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.Collectors;
+
+@Component
 public class MusicPlayer {
 
     private List<Music> musicList = new ArrayList<>();
+
+    @Value("${musicPlayer.name}")
     private String name;
+    @Value("${musicPlayer.volume}")
     private int volume;
 
     public String getName() {
@@ -28,7 +40,8 @@ public class MusicPlayer {
     public MusicPlayer() {
     }
 
-    public void setMusicList(List<Music> musicList) {
+    @Autowired
+    public void setMusicList(List< Music> musicList) {
         this.musicList = musicList;
     }
 

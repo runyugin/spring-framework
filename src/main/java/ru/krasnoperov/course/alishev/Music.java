@@ -1,5 +1,8 @@
 package ru.krasnoperov.course.alishev;
 
+import java.util.List;
+
 public interface Music {
-    String getSong();
+    List<String> getSong();
+    StyleMusic getStyle();
 }
